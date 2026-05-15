@@ -1,0 +1,119 @@
+# ============================================================================
+# Data files (large files should not be tracked by git)
+# ============================================================================
+# Raw neuroimaging data
+*.nii
+*.nii.gz
+*.img
+*.hdr
+*.cifti
+*.gii
+
+# Compressed archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.7z
+*.rar
+
+# PDF documents
+*.pdf
+
+# Spreadsheet/CSV data (if large)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+
+# ============================================================================
+# Python
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Python distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# ============================================================================
+# IDEs and editors
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+
+# ============================================================================
+# OS generated files
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================================================
+# Logs and temporary files
+# ============================================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# ============================================================================
+# Results / outputs (typical in neuroimaging pipelines)
+# ============================================================================
+results/
+outputs/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Statistical maps (often large)
+*.nii.gz
+*_pmap.nii.gz
+*_tmap.nii.gz
+*_zmap.nii.gz
